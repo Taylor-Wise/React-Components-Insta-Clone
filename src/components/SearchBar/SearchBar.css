@@ -1,4 +1,5 @@
 .search-bar-wrapper {
+  width: 100%;
   border-bottom: 1px solid #3333;
   height: 60px;
   display: flex;
@@ -8,6 +9,7 @@
 }
 .search-form {
   width: 150px;
+  margin: 0 0 0 15px;
   font-size: 14px;
 }
 .search-form input {
@@ -15,7 +17,9 @@
   color: #262626;
 }
 .image-wrapper {
+  font-size: 35px;
   height: 50px;
+  margin: 10px 0px 0px 90px;
 }
 
 .logo-image {
@@ -23,9 +27,11 @@
 }
 
 .social-wrapper {
+  font-size: 20px;
   display: flex;
 }
 
 .social {
   width: 50px;
 }
+
